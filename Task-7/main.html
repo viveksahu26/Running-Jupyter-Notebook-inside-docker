@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Docker</title>
+    </head>
+
+<!-- Launch Container -->
+<body style="background-color:deepskyblue;">
+    <h3 style="text-align: center; font-size: 30px;font-family:Verdana;"><u>Docker Services</u></h3>
+
+        <div class="flip-card" style="position: absolute; left: 10px; top:70px;">
+            <div class="flip-card-inner">
+
+            <div class="flip-card-front">
+                <img src="docker.png" alt="Docker" style="width:230px;height:230px;">
+            </div>
+
+            <div class="flip-card-back">
+                    <h2>Launch Docker !!</h2>
+                    Container name: <input type="text" id="c1" name="cname"><br><br>
+                    Image Name: <select id="image" name="image">
+                        <option value="volvo">Volvo</option>
+                        <option value="saab">Saab</option>
+                        <option value="fiat">Fiat</option>
+                        <option value="audi">Audi</option>
+                        </select><br>
+                <input type="submit" value="Submit">   
+            </div>
+
+            </div>
+        </div>
+
+        <div class="flip-card" style="position: absolute; right: 10px; top: 70px;">
+            <div class="flip-card-inner">
+
+            <div class="flip-card-front">
+                <img src="docker.png" alt="Docker" style="width:230px;height:230px;">
+            </div>
+
+            <div class="flip-card-back">
+                    <h2>Launch Docker !!</h2>
+                    Container name: <input type="text" id="c1" name="cname"><br><br>
+                    Image Name: <select id="image" name="image">
+                        <option value="volvo">Volvo</option>
+                        <option value="saab">Saab</option>
+                        <option value="fiat">Fiat</option>
+                        <option value="audi">Audi</option>
+                        </select><br>
+                <input type="submit" value="Submit">   
+            </div>
+
+            </div>
+        </div>
+    
+
+        <div class="flip-card" style="position: absolute; left: 10px; top: 400px">
+            <div class="flip-card-inner">
+
+            <div class="flip-card-front">
+                <img src="docker.png" alt="Docker" style="width:230px;height:230px;">
+            </div>
+
+            <div class="flip-card-back">
+                    <h2>Launch Docker !!</h2>
+                    Container name: <input type="text" id="c1" name="cname"><br><br>
+                    Image Name: <select id="image" name="image">
+                        <option value="volvo">Volvo</option>
+                        <option value="saab">Saab</option>
+                        <option value="fiat">Fiat</option>
+                        <option value="audi">Audi</option>
+                        </select><br>
+                <input type="submit" value="Submit">   
+            </div>
+
+            </div>
+        </div>
+
+        <div class="flip-card" style=" position: absolute; right: 10px; top: 400px;">
+            <div class="flip-card-inner">
+
+            <div class="flip-card-front">
+                <img src="docker.png" alt="Docker" style="width:230px;height:230px;">
+            </div>
+
+            <div class="flip-card-back">
+                    <h2>Launch Docker !!</h2>
+                    Container name: <input type="text" id="c1" name="cname"><br><br>
+                    Image Name: <select id="image" name="image">
+                        <option value="volvo">Volvo</option>
+                        <option value="saab">Saab</option>
+                        <option value="fiat">Fiat</option>
+                        <option value="audi">Audi</option>
+                        </select><br>
+                <input type="submit" value="Submit">   
+            </div>
+
+            </div>
+        </div>
+
+        <pre><div id="o1" class="flip-card" style="position: absolute; right: 270px; left: 250px;top: 100px; height: 500px; width: 800px; background-color: black;">
+            <h1 style="position: absolute; align-content: center; left: 290px; background-color: mediumturquoise;"><u>Your Output !!</u></h1>
+       	<pre>
+              <div id="op" style="border: red;font-size: 22px;font-weight: bolder;text-align: center;position: relative; top: 130px";></div>
+              <div id="im" style="border: red;font-size: 22px;font-weight: bolder;position: relative; top: 130px";></div>
+      	</pre>
+        </div></pre>
+</body>
+
+
+
+<style>
+    
+    .flip-card {
+      background-color: transparent;
+      width: 230px;
+      height: 230px;
+      perspective: 1000px;
+    }
+    
+    .flip-card-inner {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      transition: transform 0.6s;
+      transform-style: preserve-3d;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    }
+    
+    .flip-card:hover .flip-card-inner {
+      transform: rotateY(180deg);
+    }
+    
+    .flip-card-front, .flip-card-back {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+    }
+    
+    .flip-card-front {
+      background-color: #bbb;
+      color: black;
+    }
+    
+    .flip-card-back {
+      background-color: #2980b9;
+      color: white;
+      transform: rotateY(180deg);
+    }
+</style> 
+    <br><br><br>
+
+
+
+
+<style >
+  input[type=text], textarea {
+  width: 20%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 1px;
+  box-sizing: border-box;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  resize: vertical;
+
+  }
+  input[type=select], textarea {
+  width: 20%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 1px;
+  box-sizing: border-box;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  resize: vertical;
+
+  }
+  input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  margin-top: 15px;
+  margin-bottom: 40px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+</style>
+</body>
+</html>
