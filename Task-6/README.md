@@ -20,4 +20,4 @@ How it works ??
 Further Usecase:-
 It can be used in college for Attendance. Which will be able to identify students and send mail + whatapps to students respective parents.
 
-Video URL:- [https://www.linkedin.com/posts/vivek-kumar-sahu-bb3a61195_worldrecordholder-training-internship-activity-6812465711810670592-Gdku?utm_source=linkedin_share&utm_medium=member_desktop_web](url)
+Video URL:- [link](https://www.linkedin.com/posts/vivek-kumar-sahu-bb3a61195_worldrecordholder-training-internship-activity-6812465711810670592-Gdku?utm_source=linkedin_share&utm_medium=member_desktop_web)
